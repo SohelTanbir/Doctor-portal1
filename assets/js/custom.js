@@ -1,0 +1,16 @@
+$(document).ready(function(){
+		$('#slider1').owlCarousel({
+			loop:true,
+			autoplay:true,
+			dots:true,
+			autoplayHoverPause:true,
+			items:4,
+		});
+		$('#slider2').owlCarousel({
+			loop:true,
+			autoplay:true,
+			dots:false,
+			autoplayHoverPause:true,
+			items:1,
+		});
+});
